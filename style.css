@@ -1,6 +1,10 @@
+body {
+  align-items: center;
+  justify-content: center;
+}
+
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
   width: 100%;
 }
 
@@ -17,11 +21,17 @@ td, th {
 }
 
 .black-background :hover {
-    background-color: white;
+    background-color: DodgerBlue;
     transition: ease-in-out 0.5s;
 }
 
 .white-background :hover {
     background-color: #dddddd;
     transition: ease-in-out 0.5s;
+}
+
+.upper-div, .lower-div{
+  
+  display: flex;
+  align-items:center;
 }
