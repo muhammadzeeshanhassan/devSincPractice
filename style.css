@@ -10,7 +10,9 @@ td, th {
   padding: 8px;
 }
 
-
+h1,h2 {
+  text-align: center;
+}
 
 .black-background {
     background-color: #dddddd;
@@ -36,4 +38,5 @@ td, th {
   text-align: center;
   background-color: seagreen;
   padding: 100px;
+  text-decoration: underline;
 }
