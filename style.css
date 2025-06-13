@@ -1,0 +1,27 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+.black-background {
+    background-color: #dddddd;
+}
+
+.black-background :hover {
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.white-background :hover {
+    background-color: #dddddd;
+    transition: ease-in-out 0.5s;
+}
